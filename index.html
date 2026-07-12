@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tetris.js</title>
+  </head>
+  <body>
+    <div id="app" class="h-screen flex items-center justify-center gap-5">      
+      <div id="board"></div>
+      <div id="sidebar" class="flex flex-col gap-5">
+        <div id="score">Score: 0</div>
+        <div id="next-piece"></div>
+        <div id="controls">
+          <h2>Controls</h2>
+          <ul>
+            <li>A: Move Left</li>
+            <li>D: Move Right</li>
+            <li>S: Soft Drop</li>
+            <li>R: Rotate</li>
+            <li>Space: Hard Drop</li>
+            <li>P: Pause/Resume</li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
