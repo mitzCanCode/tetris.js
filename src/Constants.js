@@ -3,6 +3,8 @@ export var BOARD_HEIGHT = 20;
 
 export const BlockColor = Object.freeze({
     EMPTY: "#555555",
+    GHOST: "#888888",
+    WHITE: "#ffffff",
 
     C: "#00ffff",   // Cyan
     Y: "#ffff00",   // Yellow

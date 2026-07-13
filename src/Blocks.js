@@ -10,7 +10,7 @@ export class Block {
             [0,0]
         ];
         this.center = {
-            row: 0,
+            row: 1,
             column: 5
         };
         this.color = this.newBlock();
@@ -248,5 +248,4 @@ export class Block {
             })
         );
     }
-
 }
